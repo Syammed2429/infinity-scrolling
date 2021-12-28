@@ -3,7 +3,7 @@
 It's a simple web application of infinity scrolling.
 
 <h2 align="center">
-  <a href="https://infinity-scrolling.vercel.app" target="_blank">Angry Penguins NFT</a>
+  <a href="https://infinity-scrolling.vercel.app" target="_blank">Infinity Scrolling</a>
 </h2>
 
 <p align="center">
