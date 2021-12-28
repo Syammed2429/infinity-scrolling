@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex navbar">
+        <div class="logo">
+          <img
+            src="data:image/png;base64,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"
+          />
+        </div>
+
+        <div class="new-post_btn">
+          <span class="material-icons"> add_box </span>
+          <strong>New post</strong>
+        </div>
+        <!-- Search Bar Start -->
+        <input
+          type="search"
+          placeholder="Images, #tags, @users oh my!"
+          class="search-bar"
+        />
+        <div class="search-icon">
+          <span class="material-icons"> search </span>
+        </div>
+        <!-- Search Bar End -->
+
+        <!-- Right side buttons start -->
+        <div class="right-side_btns">
+          <span class="material-icons"> military_tech </span>
+          <button>Go Ad-Free</button>
+          <button>Sign in</button>
+          <button>SIgn up</button>
+        </div>
+        <!-- Right side buttons end -->
+      </div>
+      <h2 class="tagline">
+        "Hello, is this the Krusty Krab?" "No, this is Imgur"
+      </h2>
+
+      <div class="headers">
+        <h3>Explore Tags</h3>
+        <h3>More Tags</h3>
+      </div>
+      <div>
+        <div></div>
+      </div>
+    </header>
+    <div class="images"></div>
+  </body>
+  <script src="./index.js"></script>
+</html>
